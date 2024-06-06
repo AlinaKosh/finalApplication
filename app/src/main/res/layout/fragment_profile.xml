@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape"
+        android:drawablePadding="15dp"
+        android:elevation="1dp"
+        android:hint="Email"
+        android:orientation="horizontal"
+        android:outlineSpotShadowColor="@color/startGreenColor"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/msr"
+            android:gravity="center"
+            android:text="Имя"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="36dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/yeonsung"
+            android:inputType="text"
+            android:text="Name"
+            android:textColor="#B8B2B2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape"
+        android:drawablePadding="15dp"
+        android:elevation="1dp"
+        android:hint="Email"
+        android:orientation="horizontal"
+        android:outlineSpotShadowColor="@color/black"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/msr"
+            android:text="Адрес"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/profile_address"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/yeonsung"
+            android:gravity="center_vertical"
+            android:inputType="textMultiLine"
+            android:maxLines="5"
+            android:text="Place"
+            android:textColor="#B8B2B2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape"
+        android:drawablePadding="15dp"
+        android:elevation="1dp"
+        android:hint="Email"
+        android:orientation="horizontal"
+        android:outlineSpotShadowColor="@color/black"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/msr"
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="36dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/yeonsung"
+            android:inputType="textEmailAddress"
+            android:text="person@gmail.com"
+            android:textColor="#B8B2B2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edittext_shape"
+        android:drawablePadding="15dp"
+        android:elevation="1dp"
+        android:hint="Email"
+        android:orientation="horizontal"
+        android:outlineSpotShadowColor="@color/black"
+        android:paddingLeft="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/msr"
+            android:gravity="center"
+            android:text="Телефон"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/profile_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="36dp"
+            android:backgroundTint="@color/white"
+            android:fontFamily="@font/yeonsung"
+            android:inputType="phone"
+            android:text="+123456789"
+            android:textColor="#B8B2B2"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/log_out_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="16dp"
+        android:drawableEnd="@drawable/ic_log"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/yeonsung"
+        android:gravity="center_vertical"
+        android:text="Log Out"
+        android:textColor="@color/black"
+        android:textSize="10sp"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/save_profile_info"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="22dp"
+        android:background="@drawable/btn_green_90"
+        android:elevation="10dp"
+        android:fontFamily="@font/msr"
+        android:outlineAmbientShadowColor="@color/endGreenColor"
+        android:outlineSpotShadowColor="@color/endGreenColor"
+        android:shadowColor="@color/endGreenColor"
+        android:shadowDy="@integer/material_motion_duration_long_2"
+        android:shadowRadius="5"
+        android:text="Сохранить Информацию"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
